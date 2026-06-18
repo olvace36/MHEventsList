@@ -220,8 +220,8 @@ public sealed class MHEventsListMod : Mod
 		//IL_002b: Unknown result type (might be due to invalid IL or missing references)
 		MouseState state = Mouse.GetState();
 		float uiScale = Game1.options.uiScale;
-		int num = (int)((float)((MouseState)(ref state)).X / uiScale);
-		int num2 = (int)((float)((MouseState)(ref state)).Y / uiScale);
+		int num = (int)((float)state.X / uiScale);
+		int num2 = (int)((float)state.Y / uiScale);
 		return new Point(num, num2);
 	}
 
