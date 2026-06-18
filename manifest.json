@@ -1,0 +1,9 @@
+{
+  "Name": "MH Events List",
+  "Author": "olvace36",
+  "Version": "1.0.0",
+  "Description": "Lists all events in the game with NPC filter and search.",
+  "UniqueID": "olvace36.MHEventsList",
+  "EntryDll": "MHEventsList.dll",
+  "MinimumApiVersion": "4.0.0"
+}
