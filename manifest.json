@@ -1,9 +1,15 @@
 {
-  "Name": "MH Events List",
+  "Name": "MH Events List Fix",
   "Author": "olvace36",
   "Version": "1.0.0",
-  "Description": "Lists all events in the game with NPC filter and search.",
-  "UniqueID": "olvace36.MHEventsList",
-  "EntryDll": "MHEventsList.dll",
-  "MinimumApiVersion": "4.0.0"
+  "Description": "Fixes NPC list in MH Events List to show all NPCs including unspawned ones.",
+  "UniqueID": "olvace36.MHEventsListFix",
+  "EntryDll": "MHEventsListFix.dll",
+  "MinimumApiVersion": "4.0.0",
+  "Dependencies": [
+    {
+      "UniqueID": "MHEventsList",
+      "IsRequired": true
+    }
+  ]
 }
